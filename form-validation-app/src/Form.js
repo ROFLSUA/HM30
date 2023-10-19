@@ -1,4 +1,3 @@
-// Form.js
 import React from 'react';
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
@@ -11,7 +10,6 @@ const validationSchema = Yup.object().shape({
 
 const FormComponent = () => {
   const handleSubmit = (values) => {
-    // Опрацьовуйте дані форми тут
     console.log(values);
   };
 
